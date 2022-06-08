@@ -1,0 +1,22 @@
+.registrationForm{
+    width: fit-content;
+    margin: auto;
+}
+.registrationForm>label{
+    font-size: large;
+    float: left;
+    margin-top: 20px;
+}
+.registrationForm>input{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    float: right;
+    margin-left: 30px;
+}
+.inputSubmit{
+    background-color: lightblue;
+    border: 2px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+}

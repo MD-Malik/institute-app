@@ -1,0 +1,21 @@
+.eachTaskDiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.eachTaskDiv>div:nth-child(1){
+    background: lightgreen;
+    border: 2px solid green;
+    width: 300px;
+    padding: 10px 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#progressDiv{
+    background: orange;
+    border: 2px solid orangered;
+}
+#doneDiv{
+    background-color: lightblue;
+    border: 2px solid blue;
+}

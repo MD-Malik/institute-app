@@ -1,0 +1,1 @@
+export const api = "https://institute-my-app.herokuapp.com"

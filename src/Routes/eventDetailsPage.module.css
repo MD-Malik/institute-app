@@ -1,0 +1,19 @@
+.EventDetailsOuterDiv{
+    display: flex;
+    flex-direction: column;
+}
+.EventDetailsOuterDiv>div{
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    height: max-content;
+}
+
+.EventDetailsOuterDiv>div>h4{
+    font-size: large;
+}
+.EventDetailsOuterDiv>div>h4>span{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+}

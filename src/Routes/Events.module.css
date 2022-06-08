@@ -1,0 +1,22 @@
+.eventInnerDiv{
+    height: 70vh;
+    overflow-y: scroll;
+}
+.eventInnerDiv>div{
+    border: 2px solid black;
+    width: 95%;
+    padding: 8px 10px;
+    margin: 5px auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.filterBtnAndCount{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5%;
+}
+.eventInnerDiv>div>div:nth-child(3){
+    color : blue;
+    cursor: pointer;
+}
